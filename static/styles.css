@@ -1,0 +1,175 @@
+/* Lesson 1: Assignments */
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    color:white ;
+    background-size: cover;
+    background-image: url("https://www.twopeasandtheirpod.com/wp-content/uploads/2021/06/Vanilla-Pudding-Chocolate-Chip-Cookies-13-500x375.jpg");
+    background-repeat: no-repeat;
+}
+
+
+
+main {
+    position: relative;
+}
+
+h3 {
+    color:#9496f4ea;
+    font-size: 22px;
+}
+
+h1 {
+    color:#010608ea;
+    font-size: 40px;
+}
+
+nav {
+    margin: 0 auto 20px;
+    width: 400px;
+    padding: 20px;
+    background-color: rgba(73, 67, 67, 0.721);
+    backdrop-filter: blur(12px);
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px grey;
+    display:flex;
+    flex-direction:column;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+header {
+    margin: 0 auto 20px;
+    width: 675px;
+    padding: 20px;
+    background-color: rgba(38, 36, 36, 0.721);  
+    backdrop-filter: blur(12px);
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px grey;
+    display:flex;
+    flex-direction:column;
+    color: white;
+    text-align: center;
+}
+
+
+footer {
+    color: white;
+    padding: -10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+section {
+    margin: 0 auto 20px;
+    width: 375px;
+    padding: 25px;
+    background-color: rgba(38, 36, 36, 0.721);  
+    backdrop-filter: blur(12px);
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px grey;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: left;
+}
+
+a:hover {
+    color:  #94a9f4ea;
+    transform: translateY(-1px)
+}
+
+a {
+    color:white;
+    text-align: center;
+    justify-content:flex-end; 
+    font-style: normal
+}
+
+.closer {
+    margin: 50px auto;
+    width: 1100px;
+    color: #f4b794ea;
+    text-align: center;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 20px;
+    font-style: italic;
+    border-color: white;
+    border-style: solid;
+    height: 25px;
+}
+
+
+#recipe_form {
+    margin: 0 auto 20px;
+    width: 375px;
+    padding: 20px;
+    background-color: rgba(64, 160, 177, 0.721);  
+    backdrop-filter: blur(12px);
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px rgb(63, 62, 62);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+button {
+    color:black;
+    background-color: #f4b794ea;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: oblique;
+    justify-items:flex-end;
+    cursor:pointer;
+}
+
+
+button:hover {
+    transform: translateY(5px);
+    color: rgb(164, 73, 73);
+}
+
+form {
+    margin: 0 auto 20px;
+    width: 600px;
+    padding: 20px;
+    background-color: rgba(38, 36, 36, 0.721);  
+    backdrop-filter: blur(12px);
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px grey;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: left;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+#name {
+    width: 100%; 
+    border-radius: 5px; 
+    border: 2px solid grey; 
+    height: 30px;
+    
+}
+
+
+textarea {
+    width: 100%; 
+    border-radius: 5px; 
+    border: 2px solid grey; 
+    color:#bd4c0bea;
+    font-size: 16px;
+}
+
+
+::placeholder {
+    color:#3b2beaea;
+    font-size: 16px;
+}
